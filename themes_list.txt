@@ -1,1 +1,4 @@
+NOTES ADDED
+
 ✔️ Redirections Terminal Output 
+✔️ Pipe operator 
