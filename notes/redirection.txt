@@ -15,8 +15,17 @@ ls Videos/  videos_list.tx  -> redirection the ouput to a file videos_list.txt
 
  ls static-txt >> files_list.txt -> ">>" used to append
 
+DIAGRAM OF HOW THE TERMINAL WORKS
+
 Directory "aslkdfasldkfnaksld"  DOES NOT exist so this will show and ouput of type error.
   Error uses the channel 2 for communications.
+  
+                                 ----------- Channel 1 ------- OUPUT      \
+                   stdin        /                               stdout     \
+COMMAND ------< PROCESS INSTR. <                                            ------------ CONSOLE DISPLAY
+                                \                               stderr      /
+                                 ----------- Channel 2 ------- OUPUT ERROR /
+
 
 ls aslkdfasldkfnaksld 2> error.txt -> will save the error output in a file
       
