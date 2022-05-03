@@ -1,0 +1,17 @@
+PIPES Operators 
+
+" | " This is the pipe operator.
+
+Usefull to connect 2 commands. The stdout passes to the next commands as a stdin and executes the command.
+
+SImple case use.
+
+ls ~/all-documents | more
+
+passes the output of the ls  to the command more and this one displays the content interactive.
+
+
+cowsay "Hello world, im a cow" | lolcat
+
+
+ls -lha | tee output.txt | less -> lists all the files -> passes that output to the command tee, that creates a file with that input -> finally less displays all that inforamtion.
