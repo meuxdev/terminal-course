@@ -1,0 +1,27 @@
+NOTES FOR REDIRECTIONS ON TERMINAL
+--------------------------------
+
+ls Videos/  videos_list.tx  -> redirection the ouput to a file videos_list.txt
+
+ echo "CSS FILES" > files_list.txt -> redirection the output of echo to a file
+
+ ls css >> files_list.txt -> append the files in the folder CSS on the files 
+                              >> 
+                              doble greater is used to append and not to re-write
+
+ ls css > files_list.txt -> if we only use one ">" we can loose the prev text
+
+ ls *.html >> files_list.txt -> you can also convine this with the wild cards
+
+ ls static-txt >> files_list.txt -> ">>" used to append
+
+Directory "aslkdfasldkfnaksld"  DOES NOT exist so this will show and ouput of type error.
+  Error uses the channel 2 for communications.
+
+ls aslkdfasldkfnaksld 2> error.txt -> will save the error output in a file
+      
+ls maybe-exists > output.txt 2>&1 -> if you are not sure if the dir exist you can add to the end of the
+                                     command the char "2>&1" this to indicate to accept both intup channels.
+
+
+ ls static-txt/notes_* > notes_list.txt 2>&1 -> also can be used with the wildcards
