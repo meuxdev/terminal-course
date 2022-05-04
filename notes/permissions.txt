@@ -17,3 +17,16 @@ g -> groups
 o -> world
 a -> all
 
+
+
+chmod wgu <Filename>
+chomd 751 my_text -> rwx-rw--r---
+chomd 510 my_text -> rw--r-------
+
+chomd g=r o-x u=rwx -> groups adding read -> other/world  quiting execute -> user addomg read writte execute
+
+
+chown -R $(whoami):$(whoami) PersonalProjects -> change the owner of the file or directory
+chown -R root:root PersonalProjects
+chown -R <user>:<group> <NameOfFileOrDirectory>
+
