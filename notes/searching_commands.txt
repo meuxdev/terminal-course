@@ -1,0 +1,19 @@
+
+
+
+find ->
+
+find ~/ -name "name" -type "f | fd" -size "10MB"
+
+find <route> -name <nameFile> -type<f for files fd files and directories d only directories>
+
+name can use wildcards -> find ~/ -name "*.txt" -> finds all the files txt on your computer
+
+size <MB>
+
+
+whereis -> where are the bin folder and the manual
+
+which -> where is the bin folder. -> returns the single route
+
+

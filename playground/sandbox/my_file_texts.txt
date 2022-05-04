@@ -1,0 +1,17 @@
+/home/soyalextreme/documents/courses/records.txt
+/home/soyalextreme/documents/courses/terminal-course/notes/control_operators.txt
+/home/soyalextreme/documents/courses/terminal-course/notes/pipe_operator.txt
+/home/soyalextreme/documents/courses/terminal-course/notes/env_variables.txt
+/home/soyalextreme/documents/courses/terminal-course/notes/permissions.txt
+/home/soyalextreme/documents/courses/terminal-course/notes/redirection.txt
+/home/soyalextreme/documents/courses/terminal-course/README.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/less_output.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/new_file.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/sandbox/my_file_texts.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/sandbox/my_text.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/specs.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/output.txt
+/home/soyalextreme/documents/courses/terminal-course/playground/dir-route.txt
+/home/soyalextreme/documents/courses/terminal-course/themes_list.txt
+/home/soyalextreme/documents/courses/ruby-basic-cf/notes/numbers.txt
+/home/soyalextreme/documents/courses/ruby-basic-cf/README.txt
