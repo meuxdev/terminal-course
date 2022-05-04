@@ -1,0 +1,44 @@
+-rw-------  1 soyalextreme soyalextreme   35 Mar 22 15:01 .lesshst
+-rw-------  1 soyalextreme soyalextreme  12K Mar 22 16:03 .pass.swp
+-rw-------  1 soyalextreme soyalextreme  195 Jan 26 23:57 .bash_history
+-rw-------  1 soyalextreme soyalextreme  226 Apr 17 03:47 .netrc
+-rw-------  1 soyalextreme soyalextreme  37K May  3 03:54 .viminfo
+-rw-------  1 soyalextreme soyalextreme  636 May  1 21:18 .irb_history
+-rw-------  1 soyalextreme soyalextreme  840 Apr 26 01:08 .python_history
+-rw-------  1 soyalextreme soyalextreme  96K May  3 04:03 .zsh_history
+-rw-------  1 soyalextreme soyalextreme 1.3K Apr 16 17:34 .node_repl_history
+-rw-r--r--  1 soyalextreme soyalextreme    0 Jan 26 20:32 .motd_shown
+-rw-r--r--  1 soyalextreme soyalextreme    0 Jan 26 23:51 .sudo_as_admin_successful
+-rw-r--r--  1 soyalextreme soyalextreme   10 Jan 26 23:57 .shell.pre-oh-my-zsh
+-rw-r--r--  1 soyalextreme soyalextreme   29 Jan 26 23:56 .zshrc.pre-oh-my-zsh
+-rw-r--r--  1 soyalextreme soyalextreme   45 Mar 22 16:02 .pass
+-rw-r--r--  1 soyalextreme soyalextreme  118 May  1 17:35 .mkshrc
+-rw-r--r--  1 soyalextreme soyalextreme  118 May  1 17:35 .zlogin
+-rw-r--r--  1 soyalextreme soyalextreme  200 May  1 17:35 .bash_profile
+-rw-r--r--  1 soyalextreme soyalextreme  220 Jan 26 20:32 .bash_logout
+-rw-r--r--  1 soyalextreme soyalextreme  48K Jan 27 01:23 .zcompdump
+-rw-r--r--  1 soyalextreme soyalextreme  50K May  1 17:58 .zcompdump-DESKTOP-ATPRFEE-5.8
+-rw-r--r--  1 soyalextreme soyalextreme 1.1K May  1 17:35 .profile
+-rw-r--r--  1 soyalextreme soyalextreme 3.2K Apr 26 17:26 .meuxdev.gpg.pub
+-rw-r--r--  1 soyalextreme soyalextreme 3.9K May  1 17:38 .bashrc
+drwx------  2 soyalextreme soyalextreme 4.0K Jan 27 01:53 .ssh
+drwx------  4 soyalextreme soyalextreme 4.0K Apr 29 23:32 .config
+drwx------  5 soyalextreme soyalextreme 4.0K May  3 03:55 .gnupg
+drwxr-xr-x  2 soyalextreme soyalextreme 4.0K Jan 26 20:32 .landscape
+drwxr-xr-x  3 root         root         4.0K Jan 26 20:32 ..
+drwxr-xr-x  3 soyalextreme soyalextreme 4.0K Jan 27 00:31 .local
+drwxr-xr-x  3 soyalextreme soyalextreme 4.0K May  2 14:53 .config-files
+drwxr-xr-x  5 soyalextreme soyalextreme 4.0K Feb 16 00:35 .kivy
+drwxr-xr-x  5 soyalextreme soyalextreme 4.0K Feb 22 21:59 .npm
+drwxr-xr-x  6 soyalextreme soyalextreme 4.0K Apr 17 03:47 .cache
+drwxr-xr-x  6 soyalextreme soyalextreme 4.0K May  3 03:54 .vim
+drwxr-xr-x  7 soyalextreme soyalextreme 4.0K Apr 30 02:20 documents
+drwxr-xr-x  8 soyalextreme soyalextreme 4.0K Jan 27 00:52 .nvm
+drwxr-xr-x 12 soyalextreme soyalextreme 4.0K Apr 25 12:59 .oh-my-zsh
+drwxr-xr-x 16 soyalextreme soyalextreme 4.0K May  3 04:03 .
+drwxr-xr-x 25 soyalextreme soyalextreme 4.0K May  1 17:35 .rvm
+lrwxrwxrwx  1 soyalextreme soyalextreme   39 Apr 29 23:36 .vimrc -> /home/soyalextreme/.config-files/.vimrc
+lrwxrwxrwx  1 soyalextreme soyalextreme   39 Apr 30 01:44 .zshrc -> /home/soyalextreme/.config-files/.zshrc
+lrwxrwxrwx  1 soyalextreme soyalextreme   43 Apr 30 02:00 .gitconfig -> /home/soyalextreme/.config-files/.gitconfig
+lrwxrwxrwx  1 soyalextreme soyalextreme   48 Apr 30 02:15 .gitconfig.user -> /home/soyalextreme/.config-files/.gitconfig.user
+total 376K
