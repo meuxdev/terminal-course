@@ -30,3 +30,7 @@ chown -R $(whoami):$(whoami) PersonalProjects -> change the owner of the file or
 chown -R root:root PersonalProjects
 chown -R <user>:<group> <NameOfFileOrDirectory>
 
+echo $(find ~/ -name .zshrc) -> /home/soyalextreme/.config-files/.zshrc
+				- Exc command inside other command.
+				- finds in root a file named ".zshtc"
+				- returns the root of the file if finded and echo  prints that route
