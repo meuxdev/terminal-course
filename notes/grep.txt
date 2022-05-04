@@ -1,0 +1,14 @@
+
+GREP
+
+
+history | grep -c "||"  -> counts how many times i had used the or connecting operator on the history of 
+														my terminal
+
+history | grep -i "CD" -> shows all the times i had used "cd" or "CD" or "cD" or  "Cd"
+history | grep -i -c "CD" -> same that before but counting instead of showind
+history | grep -vi -c "CD" -> this will count all the commands in which i had not used any "cd" ignoring capital case or lower case
+
+GREP examples:
+https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
