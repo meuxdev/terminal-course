@@ -1,0 +1,4 @@
+Hola amigos
+
+
+desde mi terminal y el comando cat.
