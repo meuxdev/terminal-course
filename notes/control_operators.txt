@@ -1,0 +1,23 @@
+
+CONTROL OPERATORS
+append and execute commands
+
+
+; -> linealmente -> sync one by one and wait for the other to be completed
+& -> async -> creates multiple process and exc. all the commands at the same time creating threads.
+&& -> conditionals -> only exc. the next one if the command before was completed. 
+|| -> or -> exc. the next one if the command before is completed even if the command shows an error.
+
+; -> secuencial operator
+ $ mkdir test; cd test; touch sample.txt
+
+ & -> async operator
+ $ cal & date & screenfetch -> all commands are independents and can be run async. this just displays some inf.
+
+ && -> conditional operator
+ $ git pull origin main && git push origin main -> pulls the information and if that is completed succ. will
+ make a push to the repo.
+
+|| -> conditional or operator
+ $ cd jkafklsjdfnaksjd || touch archivo.txt || echo "file created" -> even the directory does not exists the or operator allow us to create the file.
+ $ cd asajsda || echo "cambio directorio" -> exc. if completed even if the response of the terminal is an stderr.
