@@ -1,0 +1,17 @@
+printenv -> command that shows all the env varibles in our terminal
+
+
+$ ln -s <pathOfLink> <WhereToPlaceIt>
+
+$ ln -s ~/.config-files/.zshrc ~/ 
+											-> Creates a symbolic link of the .zshrc that is on the config-files dir into
+											the ~ home
+
+alias gcam="git commit -am" -> git commit add message in an alias
+
+
+$ export COURSES=~/documents/courses
+
+exporting a ENV VAR named courses with the path of the courses dir
+
+
