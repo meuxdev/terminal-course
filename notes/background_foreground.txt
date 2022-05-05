@@ -1,0 +1,27 @@
+BACKGROUND AND FOREGROUND
+===================================
+
+cat > random_note.txt
+
+CRTL + z -> suspended the task and goes to background
+
+
+jobs -> shows all the process 
+		
+		with the process number that appears with the jobs commands we can run the command. 
+
+		fg %1
+				%<number>
+
+				this way your process will return to the foreground and you will see that.
+
+adding a "& operator" will send directly the process to background
+
+	in my case when i open vscode the process keeps running in my terminal 
+
+	$ code ./
+	 ruuning............
+
+	 $ code ./ & 
+	 		passes the process to background
+
