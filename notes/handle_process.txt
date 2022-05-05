@@ -6,3 +6,7 @@ kill <PID> -> kills that specific process
 
 
 top -> shows on a more interface view the process that are running
+
+
+htop -> MORE PROFESSIONAL COMMAND TO HANDLE PROCESS
+				THE BEST WITHOU A DOUBT
