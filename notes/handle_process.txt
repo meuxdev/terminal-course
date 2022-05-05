@@ -1,0 +1,8 @@
+
+ps -> displays all the process runing
+			PID -> process id
+
+kill <PID> -> kills that specific process 
+
+
+top -> shows on a more interface view the process that are running
