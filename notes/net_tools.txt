@@ -1,0 +1,43 @@
+NET UTILITIES
+----------------
+ifconfig -> shows the information about the internet connection netmask ip and more information.
+ping -> connection of a page web. test the connection.
+
+
+CURL
+----------------
+curl www.google.com > index.html
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14044    0 14044    0     0  36102      0 --:--:-- --:--:-- --:--:-- 36010
+
+curl brings information from an specific web page. Makes a get request.
+
+WGET
+----------------
+wget www.google.com
+--2022-05-05 01:18:38--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 142.251.34.228, 2607:f8b0:4012:81a::2004
+Connecting to www.google.com (www.google.com)|142.251.34.228|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+index.html                       [ <=>                                          ]  13.75K  --.-KB/s    in 0.006s
+
+2022-05-05 01:18:38 (2.12 MB/s) - ‘index.html’ saved [14075]
+
+wget brings the document not the information of the webpage.
+
+
+TRACEROOT
+----------------
+traceroot -> shows all the point of connection that we are passing trough
+						all computers that helps in the connections.
+
+NETSTAT
+----------------
+netstat -i -> shows all the net devices.
+										similar to ifconfig. with more information and if those are working correctly.
+
+
