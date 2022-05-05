@@ -1,1 +1,0 @@
-../../notes/env_variables.txt
