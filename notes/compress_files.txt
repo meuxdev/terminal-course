@@ -1,0 +1,65 @@
+
+COMPRESS FILES
+----------------------
+IMPORTANT to place first the dir name + tar -> which is the extension of the compress file
+
+tar -cvf  <dir_name>.tar <dirname>
+			-FLAGS
+			c -> compress
+			v -> verbose -> shows all the outputs
+			f -> files
+
+tar -xvf <dir_name>.tar
+		FLAGS 
+		x -> xtract -> extact mode
+		v -> verbose 
+		f -> file
+
+
+Encrypting in the simple way
+
+
+
+GZIP -> algorithm that makes more secure the encryption.
+
+
+tar -czvf <dirname>.tar.gz <dirname>
+
+FLAGS 
+		- c -> compress
+			z -> gzip
+			v -> verbose -> shows the process.
+			f -> files 
+
+tar -xzvf <dirname>.tar.gz
+
+
+
+ZIP 
+-------------
+important to add ".zip" to the dir name to the first param.
+
+zip -r -T dir.zip dir/
+zip -r -T <dirname>.zip dir/
+
+unzip -r -T dir.zip
+
+		FLAGS
+			r -> recursive
+			T -> test -> this flag will test that the zip file was zipped correctly and display a confirmation msg.
+
+------------------------------------------
+
+
+RAR 
+-------------
+
+rar a dir_example.rar dir_example -> compress simple
+
+
+rar a -p dir_test.rar dir_test/ -> compress into rar and adds a password
+					
+
+unrar e dir_test.rar -> this creates a directory and extracts there the files.
+unrar e dir_test.rar /home/ -> this extracts in a specific directory
+unrar x dir_test.rar -> extracts the file in the current directory or path

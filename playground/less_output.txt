@@ -1,4 +1,0 @@
-total 12K
--rw-r--r-- 1 soyalextreme soyalextreme   20 May  4 10:34 dir-route.txt
--rw-r--r-- 1 soyalextreme soyalextreme  150 May  4 10:35 less_output.txt
--rw-r--r-- 1 soyalextreme soyalextreme 3.1K May  4 10:34 output.txt
